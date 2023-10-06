@@ -1,0 +1,133 @@
+body {
+  background-color: #2C2B3D;
+}
+
+.container {
+  width: 1083px;
+  margin: 71px auto 0;
+}
+
+
+
+/*  navbar */
+
+
+.navbar {
+  display: inline-flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacao {
+  width: 309px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacao a {
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+
+/* main */
+
+.main {
+  display: flex;
+  margin-top: 109px;
+}
+
+.corpo-texto {
+  text-align: center;
+  width: 609px;
+  margin: 0 auto 0 82px;
+}
+
+
+.corpo-texto h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  width: 609px;
+  margin-top: 6px;
+}
+
+.corpo-texto h1 strong {
+  color: #00BFA6;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.corpo-texto p {
+  color: #C2C2C2;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 604px;
+  margin: 59px auto 0;
+}
+
+.corpo-texto p+p {
+  margin: 20px auto;
+}
+
+.corpo-texto p span {
+  font-weight: 700;
+}
+
+
+.corpo-texto p strong {
+  color: #00BFA6;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer div {
+  height: 0;
+  border: 1px #00BFA6 solid;
+  width: 568.001px;
+  margin: auto;
+  margin-top: 167px;
+}
+
+.footer p {
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 27px;
+}
+
+.cadeado {
+  position: absolute;
+  left: 2vh;
+  bottom: 2vh;
+  height: 10vh;
+}
